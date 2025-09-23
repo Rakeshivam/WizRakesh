@@ -44,58 +44,58 @@ const AboutDetails = () => {
           </p>
         </ItemLayout>
 
-        {/* <ItemLayout
+        <ItemLayout
           className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
         >
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=Rakeshivam&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            alt="WizRakesh"
             loading="lazy"
           />
-        </ItemLayout> */}
+        </ItemLayout>
 
-        {/* <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
+        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=Rakeshivam&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
+            alt="WizRakesh"
             loading="lazy"
           />
-        </ItemLayout> */}
+        </ItemLayout>
 
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=aws,bootstrap,css,git,github,html,js,jquery,mongodb,mysql,python,netlify,nextjs,nodejs,react,redux,tailwind,threejs,vercel,vite,vscode,postman`}
+            src={`https://skillicons.dev/icons?i=java,python,js,html,css,mysql,mongodb,express,react,nodejs,git,github,jquery,redux,aws,bootstrap,tailwind,vscode`}
             alt="CodeBucks"
             loading="lazy"
           />
         </ItemLayout>
 
-        {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
+            src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=Rakeshivam&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
+            alt="WizRakesh"
             loading="lazy"
           />
-        </ItemLayout> */}
+        </ItemLayout>
 
-        {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
-            href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
+            href="https://github.com/Rakeshivam/rakeshivam.github.io"
             target="_blank"
             className="w-full"
           >
             <img
               className="w-full h-auto"
-              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
+              src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=Rakeshivam&repo=rakeshivam.github.io&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
+              alt="WizRakesh"
               loading="lazy"
             />
           </Link>
-        </ItemLayout> */}
+        </ItemLayout>
       </div>
     </section>
   );
