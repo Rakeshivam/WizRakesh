@@ -26,6 +26,7 @@ export default function Form() {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm();
 
   const sendEmail = (params) => {
@@ -51,6 +52,7 @@ export default function Form() {
               id: toastId,
             },
           );
+          reset();
         },
         (error) => {
           toast.error(
@@ -65,7 +67,7 @@ export default function Form() {
 
   const onSubmit = (data) => {
     const templateParams = {
-      to_name: "CodeBucks",
+      to_name: "WizRakesh",
       from_name: data.name,
       reply_to: data.email,
       message: data.message,
