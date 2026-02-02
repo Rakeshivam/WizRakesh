@@ -1,49 +1,31 @@
-/*
-Websites:
-
-- https://github.com/pmndrs/gltfjsx (GLTF JSX for 3D Models)
-- https://lucide.dev/icons/ (Lucide Icons)
-- https://github.com/anuraghazra/github-readme-stats (Github Readme Stats)
-- https://skillicons.dev (Skill Icons to show skills)
-- https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
-
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
-*/
-
 export const projectsData = [
   {
     id: 1,
-    name: "HeavenHub",
-    description: "Accomodation Booking Platform",
-    date: "2025-08-1",
-    demoLink: "https://github.com/Rakeshivam",
+    name: "ProConnect",
+    description: "A true social media platform, with stories no blufs !",
+    date: "2026-01-1",
+    demoLink: "https://pro-connect-bn5h.vercel.app/",
   },
   {
     id: 2,
-    name: "DataMind",
-    description: "AI - ChatBot",
-    date: "2025-05-20",
-    demoLink: "https://github.com/Rakeshivam/DataMind",
+    name: "HeavenHub",
+    description: "Explore unique homes and stays worldwide.",
+    date: "2025-12-20",
+    demoLink: "https://heavenhub-3ut9.onrender.com/listings",
   },
   {
     id: 3,
-    name: "TradeMint",
-    description: "A Stock Trading Platform",
-    date: "2022-09-10",
-    demoLink: "https://github.com/Rakeshivam/Trademint",
+    name: "TalkSpace",
+    description: "Real - Time Video Conferencing Web Application.",
+    date: "2025-10-10",
+    demoLink: "https://talkspace-3.onrender.com/",
   },
   {
     id: 4,
-    name: "HelloWave",
-    description: "A video conferencing web application with real time chats",
+    name: "Gemini Lite",
+    description: "Intelligent AI Assistant for Real-Time Conversations.",
     date: "2025-02-30",
-    demoLink: "https://github.com/Rakeshivam/HelloWave",
+    demoLink: "https://gemini-lite-lemon.vercel.app/",
   },
   {
     id: 5,
@@ -52,41 +34,6 @@ export const projectsData = [
     date: "2024-07-12",
     demoLink: "https://rakeshivam.github.io/",
   },
-  // {
-  //   id: 6,
-  //   name: "JourneyLogger",
-  //   description: "Log your travels",
-  //   date: "2022-10-01",
-  //   demoLink: "https://journeylogger.example.com",
-  // },
-  // {
-  //   id: 7,
-  //   name: "StudyBuddy",
-  //   description: "Collaborative learning platform",
-  //   date: "2024-09-18",
-  //   demoLink: "https://studybuddy.example.com",
-  // },
-  // {
-  //   id: 8,
-  //   name: "TechTalk",
-  //   description: "Tech news aggregator",
-  //   date: "2024-04-05",
-  //   demoLink: "https://techtalk.example.com",
-  // },
-  // {
-  //   id: 9,
-  //   name: "FitTrack",
-  //   description: "Fitness and workout tracker",
-  //   date: "2022-03-22",
-  //   demoLink: "https://fittrack.example.com",
-  // },
-  // {
-  //   id: 10,
-  //   name: "MindfulMoments",
-  //   description: "Meditation and mindfulness app",
-  //   date: "2022-02-14",
-  //   demoLink: "https://mindfulmoments.example.com",
-  // },
 ];
 
 export const BtnList = [
@@ -119,5 +66,3 @@ export const BtnList = [
     newTab: true,
   },
 ];
-
-

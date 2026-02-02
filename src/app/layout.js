@@ -11,10 +11,8 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    template:
-      "WizRakesh",
-    default:
-      "WizRakesh",
+    template: "WizRakesh",
+    default: "WizRakesh",
   },
   description:
     "A unique creative portfolio designed by WizRakesh with cutting-edge technologies like Next.js, Tailwind CSS, Three.js, and Framer Motion. Experience the art of modern web development firsthand.",
@@ -26,7 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={clsx(
           inter.variable,
-          "bg-background text-foreground font-inter"
+          "bg-background text-foreground font-inter",
         )}
       >
         {children}

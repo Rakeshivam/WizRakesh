@@ -30,7 +30,7 @@ const Modal = ({ onClose, toggle }) => {
       </div>
     </div>,
 
-    document.getElementById("my-modal")
+    document.getElementById("my-modal"),
   );
 };
 
@@ -47,7 +47,7 @@ const Sound = () => {
     }
 
     ["click", "keydown", "touchstart"].forEach((event) =>
-      document.removeEventListener(event, handleFirstUserInteraction)
+      document.removeEventListener(event, handleFirstUserInteraction),
     );
   };
 
@@ -64,7 +64,7 @@ const Sound = () => {
 
       if (consent === "true") {
         ["click", "keydown", "touchstart"].forEach((event) =>
-          document.addEventListener(event, handleFirstUserInteraction)
+          document.addEventListener(event, handleFirstUserInteraction),
         );
       }
     } else {
