@@ -30,14 +30,14 @@ const AboutDetails = () => {
         {/* Clients */}
         <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            10+ <sub className="text-base">clients</sub>
+            0+ <sub className="text-base">clients</sub>
           </p>
         </ItemLayout>
 
         {/* Experience */}
         <ItemLayout className="col-span-full xs:col-span-6 lg:col-span-4 text-accent">
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            2+ <sub className="text-base">years experience</sub>
+            1+ <sub className="text-base">years experience</sub>
           </p>
         </ItemLayout>
 
