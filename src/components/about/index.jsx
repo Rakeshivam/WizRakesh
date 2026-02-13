@@ -20,10 +20,15 @@ const AboutDetails = () => {
           </h2>
 
           <p className="font-light text-xs sm:text-sm md:text-base">
-            My journey in web development is powered by modern tools and
-            technologies like React, Next.js, Node.js, and Python. I build fast,
-            scalable and beautiful web experiences while continuously learning
-            and exploring new technologies.
+            My journey in web development is powered by an array of mystical
+            tools and languages, with JavaScript casting the core of my
+            enchantments. I wield frameworks like React.js and Next.js with
+            precision, crafting seamless portals (websites) that connect realms
+            (users) across the digital universe. The ancient arts of the
+            Jamstack empower me to create fast, secure, and dynamic experiences,
+            while my design skills ensure every creation is not only functional
+            but visually captivating. Join me as I continue to explore new
+            spells and technologies to shape the future of the web.
           </p>
         </ItemLayout>
 
